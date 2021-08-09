@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="download.whatstatus.savestatus.WhatsAppDeletedMsgActivity"
+    android:background="@color/darkgrey">
+
+
+    <ImageView
+        android:id="@+id/back_btn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:background="@mipmap/green_back"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="@mipmap/half_icon"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="WhatsApp Messages"
+        android:layout_below="@+id/back_btn"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:paddingLeft="35dp"
+        android:textSize="24sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="2"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        >
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:clickable="true"
+            android:padding="16dp"
+            android:layout_weight="1.7"
+            android:smoothScrollbar="true"></androidx.recyclerview.widget.RecyclerView>
+    </LinearLayout>
+
+<!--<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WhatsAppDeletedMsgActivity">-->
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Messages..."
+        android:id="@+id/image_change_explanation"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="18.5dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="18dp"
+        android:textSize="18sp"
+        android:typeface="monospace"
+        android:textAlignment="center" />-->
+
+<!--    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerView"></androidx.recyclerview.widget.RecyclerView>-->
+
+ <!--<ListView
+    android:id="@+id/listView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true" >
+</ListView>-->
+
+    <TextView
+        android:id="@+id/noDataText"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="No data, Please wait for new messages"
+        android:layout_centerInParent="true"
+        />
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>

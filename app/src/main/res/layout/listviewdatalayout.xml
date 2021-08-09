@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:orientation="vertical"
+    android:layout_marginTop="5dp"
+    android:background="@drawable/back_grey"
+    >
+
+
+
+
+    <TextView
+        android:id="@+id/textViewNAME"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:textSize="17sp"
+        android:text="Title"
+        android:layout_toRightOf="@+id/status_downIMG"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/contb"
+        android:paddingLeft="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewSMS"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:text="Message"
+        android:fontFamily="@font/imprima"
+        android:layout_below="@+id/textViewNAME"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewDATE"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:text="Date"
+        android:fontFamily="@font/imprima"
+        android:layout_below="@+id/textViewSMS"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"/>
+
+
+</RelativeLayout>

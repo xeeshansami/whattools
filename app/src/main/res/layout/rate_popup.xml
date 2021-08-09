@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="30dp">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/back_grey">
+
+
+        <TextView
+            android:id="@+id/rateus_text_label1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/contb"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text="Do you like"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/rateus_text_label2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rateus_text_label1"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/amaranth_regular"
+            android:gravity="center"
+            android:text=" WhatStatus App?"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/rateus_text_label3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rateus_text_label2"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:fontFamily="@font/imprima"
+            android:text=" Rate us please!"
+            android:textColor="@color/white" />
+
+        <LinearLayout
+            android:id="@+id/rate_label_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rateus_text_label3"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RatingBar
+                android:id="@+id/rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:numStars="5"
+                android:rating="2.5" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rate_button_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rate_label_layout"
+            android:layout_gravity="center|bottom"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/no_txt"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:background="@color/transparent"
+                android:text="No, Thanks"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/rate_btn"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:background="@drawable/back_white"
+                android:text="RATE US"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/white"
+                android:layout_gravity="center_horizontal"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/main_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rate_button_layout"
+            android:orientation="vertical">
+
+            <ProgressBar
+                android:id="@+id/loading_indicator"
+                style="@style/Widget.AppCompat.ProgressBar"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="200dp"
+                android:visibility="gone" />
+
+              </LinearLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/like_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/staryellow" />
+</RelativeLayout>

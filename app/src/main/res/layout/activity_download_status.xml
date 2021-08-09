@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="download.whatstatus.savestatus.DownloadStatusActivity"
+    android:background="@color/darkgrey">
+
+    <ImageView
+        android:id="@+id/back_btn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:background="@mipmap/green_back"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="@mipmap/half_icon"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        >
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.9"
+            android:padding="16dp"></androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+
+  <!--  <ImageView
+        android:id="@+id/bottomPlus"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/plus_option"
+        />-->
+
+   <!-- <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1"
+        >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.7"></LinearLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/bottomOption"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:background="@drawable/up_option_back"
+            >
+            
+           <RelativeLayout
+               android:layout_width="0dp"
+               android:layout_height="match_parent"
+               android:layout_weight="1">
+
+               <ImageView
+                   android:id="@+id/downloderIMG"
+                   android:layout_width="100dp"
+                   android:layout_height="100dp"
+                   android:background="@mipmap/downloadicon"
+                   android:layout_centerInParent="true"/>
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Downloader"
+                   android:layout_below="@+id/downloderIMG"
+                   android:textColor="@color/white"
+                   android:textStyle="bold"
+                   android:textSize="16sp"
+                   android:layout_centerHorizontal="true"
+                   />
+
+           </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <View
+                    android:id="@+id/minimizeView"
+                    android:layout_marginTop="15dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="20dp"
+                    android:layout_height="2dp"
+                    android:background="@color/white"/>
+
+
+                <ImageView
+                    android:id="@+id/historyIMG"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@mipmap/history"
+                    android:layout_centerInParent="true"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="History"
+                    android:layout_below="@+id/historyIMG"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_centerHorizontal="true"
+                    />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/settingIMG"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@mipmap/settingicon"
+                    android:layout_centerInParent="true"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Setting"
+                    android:layout_below="@+id/settingIMG"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_centerHorizontal="true"
+                    />
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>-->
+</RelativeLayout>

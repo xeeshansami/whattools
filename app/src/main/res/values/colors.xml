@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#04ca7f</color>
+    <color name="colorPrimaryDark">#04ca7f</color>
+    <color name="colorAccent">#04ca7f</color>
+    <color name="transperant">#00ffffff</color>
+    <color name="white">#ffff</color>
+    <color name="gradient">#C3654E</color>
+    <color name="tab_color">#8067A1</color>
+    <color name="colorgreen">#005e2c</color>
+    <color name="progressgreen">#009345</color>
+    <color name="duskYellow">#A67C00</color>
+    <color name="darkgrey">#21262c</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="inactiveAddButtonColor">#B3B3B3</color>
+    <color name="infoPageBackgroundColor">#EBEBEB</color>
+    <color name="actionBarArrowColor">@color/colorAccent</color>
+
+    <!--Background remover -->
+    <color name="real_black">#b7000000</color>
+
+    <color name="Modal">#b7000000</color>
+    <color name="bg_row_background">#ff303e</color>
+    <color name="bg_row_foreground">#fcfcfc</color>
+    <color name="intro_magic_background_color">#373737</color>
+    <color name="intro_manual_background_color">#E64E4E</color>
+    <color name="intro_zoom_background_color">#4E5DE6</color>
+
+</resources>

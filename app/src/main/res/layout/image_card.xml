@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="110dp"
+android:padding="2dp"
+>
+
+<ImageView
+    android:id="@+id/status_downIMG"
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    android:scaleType="fitXY"
+    android:layout_gravity="center_horizontal"
+    android:src="@mipmap/maindicon" />
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/share_delete_layout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/darkgrey"
+        >
+
+
+        <ImageView
+            android:id="@+id/backLayout"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/left_arrow"
+            android:backgroundTint="@color/colorPrimary"/>
+
+        <ImageView
+            android:layout_marginRight="5dp"
+            android:id="@+id/videoDelete"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/delete_circle"
+            android:layout_alignParentRight="true"/>
+
+        <ImageView
+            android:layout_marginRight="5dp"
+            android:id="@+id/videoShare"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/share_circle"
+            android:layout_toLeftOf="@+id/videoDelete"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

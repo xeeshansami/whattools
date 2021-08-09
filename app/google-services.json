@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1024780529576",
+    "firebase_url": "https://whatstatus-38df2.firebaseio.com",
+    "project_id": "whatstatus-38df2",
+    "storage_bucket": "whatstatus-38df2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1024780529576:android:4cff4b0bce6bf5ed32379d",
+        "android_client_info": {
+          "package_name": "download.whatstatus.savestatus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1024780529576-1csmk4dqdqg3s9np3b1iv36nr96dug7b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "download.whatstatus.savestatus",
+            "certificate_hash": "3aeb4d1ffc6fe9ab7269cde39f7d9a8f19a517d0"
+          }
+        },
+        {
+          "client_id": "1024780529576-e55frevdtbietkqplsr8mc8m5g9pkrcd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGtWkJMGylYOgBjliqT2nJdO67a_2o4bs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1024780529576-e55frevdtbietkqplsr8mc8m5g9pkrcd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
