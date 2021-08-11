@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/darkgrey"
-    tools:context="download.whatstatus.savestatus.activities.AddToStickerPackActivity">
+    tools:context="whatsapp.whtools.statusdownloader.activities.AddToStickerPackActivity">
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="395dp"

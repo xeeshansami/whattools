@@ -135,13 +135,13 @@
     <string name="no">No</string>
 
     <!--running ads-->
-    <string name="banner_ad_unit_id">ca-app-pub-4122413782319980/2797924049</string>
-    <string name="app_id">ca-app-pub-4122413782319980~4111005719</string>
+<!--    <string name="banner_ad_unit_id">ca-app-pub-4122413782319980/2797924049</string>-->
+<!--    <string name="app_id">ca-app-pub-4122413782319980~4111005719</string>-->
 <!--    <string name="intersitial_as_unit_id">ca-app-pub-4122413782319980/1484842375</string>-->
 
     <!--test ads -->
-<!--    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>-->
-<!--    <string name="app_id">ca-app-pub-3940256099942544~3347511713</string>-->
-    <!-- <string name="intersitial_as_unit_id">ca-app-pub-3940256099942544/1033173712</string>-->
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="app_id">ca-app-pub-3940256099942544~3347511713</string>
+     <string name="intersitial_as_unit_id">ca-app-pub-3940256099942544/1033173712</string>
 
 </resources>

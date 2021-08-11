@@ -4,7 +4,7 @@
              android:layout_width="match_parent"
              android:layout_height="match_parent"
     android:background="@color/darkgrey"
-             tools:context="download.whatstatus.savestatus.activities.ExploreFragment">
+             tools:context="whatsapp.whtools.statusdownloader.activities.ExploreFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView

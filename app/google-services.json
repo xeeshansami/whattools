@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:1024780529576:android:4cff4b0bce6bf5ed32379d",
         "android_client_info": {
-          "package_name": "download.whatstatus.savestatus"
+          "package_name": "whatsapp.whtools.statusdownloader"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "1024780529576-1csmk4dqdqg3s9np3b1iv36nr96dug7b.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "download.whatstatus.savestatus",
+            "package_name": "whatsapp.whtools.statusdownloader",
             "certificate_hash": "3aeb4d1ffc6fe9ab7269cde39f7d9a8f19a517d0"
           }
         },

@@ -7,7 +7,7 @@
     android:background="@color/darkgrey"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    tools:context="download.whatstatus.savestatus.activities.NewStickerPackActivity">
+    tools:context="whatsapp.whtools.statusdownloader.activities.NewStickerPackActivity">
 
 
     <RelativeLayout
